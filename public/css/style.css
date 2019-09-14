@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html {
+  overflow-x: hidden;
+}
+/*
+==========
+container
+==========
+*/
+.container-border {
+  border: 2px solid black;
+  border-top: 2px solid lightgreen!important;
+}
+
+.container-content {
+  padding: 2px 4px;
+  margin: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid lightgrey;
+}
+
+/*
+==========
+inputs
+==========
+*/
+
+#myInput {
+  width: 100%; /* Full-width */
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
